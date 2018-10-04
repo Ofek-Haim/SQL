@@ -1,0 +1,39 @@
+SELECT  *
+FROM Products
+WHERE ProductName LIKE '%a%'
+
+---------------
+
+SELECT  *
+FROM Products
+WHERE ProductName LIKE 'B%'
+
+---------------
+
+SELECT  *
+FROM Products
+WHERE ProductName LIKE 'bamba'
+
+---------------
+
+SELECT  *
+FROM Products
+WHERE ProductName LIKE '%a'
+
+---------------
+
+SELECT  *
+FROM Products
+WHERE ProductName LIKE 'm_l%'
+
+---------------
+
+SELECT  *
+FROM Products
+WHERE ProductName LIKE '%_____%'
+
+---------------
+
+SELECT  *
+FROM Products
+WHERE ProductName LIKE '%_____%'
