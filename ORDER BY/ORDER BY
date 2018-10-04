@@ -1,0 +1,3 @@
+SELECT *
+FROM Products
+ORDER BY ProductPrice ASC --To flip the order use DESC 

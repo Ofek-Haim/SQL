@@ -1,0 +1,7 @@
+SELECT *
+FROM Products
+ORDER BY ProductCategory, ProductPrice ASC --To flip the order use DESC 
+ ----------------------
+SELECT *
+FROM Products
+ORDER BY ProductCategory DESC, ProductPrice ASC --To flip the order use DESC 
