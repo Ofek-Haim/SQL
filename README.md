@@ -11,7 +11,7 @@ This repository include subjects in SQL language
 * ORDER BY
 * WHERE
 * LIKE
-*
+* DISTINCT
 *
 *
 *
