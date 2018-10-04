@@ -10,7 +10,7 @@ This repository include subjects in SQL language
 * SELECT
 * ORDER BY
 * WHERE
-*
+* LIKE
 *
 *
 *
