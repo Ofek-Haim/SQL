@@ -1,0 +1,6 @@
+CREATE TABLE `table1` (
+	`Id`	INTEGER,
+	`Number`	INTEGER,
+	`Data`	TEXT,
+	PRIMARY KEY(`Id`)
+);

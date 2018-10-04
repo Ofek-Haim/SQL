@@ -1,0 +1,6 @@
+CREATE TABLE `Products` (
+	`ProductName`	TEXT NOT NULL,
+	`ProductID`	INTEGER NOT NULL,
+	`ProductPrice`	INTEGER NOT NULL,
+	`ProductCategory`	INTEGER NOT NULL
+);
