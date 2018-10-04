@@ -12,7 +12,7 @@ This repository include subjects in SQL language
 * WHERE
 * LIKE
 * DISTINCT
-*
+* Connections between tables - PK&FK
 *
 *
 *
