@@ -9,7 +9,7 @@ This repository include subjects in SQL language
 * Insert values
 * SELECT
 * ORDER BY
-*
+* WHERE
 *
 *
 *
