@@ -1,0 +1,7 @@
+SELECT  ProductCategory
+FROM Products
+ 
+ --------------
+
+SELECT DISTINCT ProductCategory
+FROM Products
