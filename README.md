@@ -5,10 +5,10 @@ This repository include subjects in SQL language
 
 ## Subjects
 
-*
-*
-*
-*
+* Create table
+* Insert values
+* SELECT
+* ORDER BY
 *
 *
 *
