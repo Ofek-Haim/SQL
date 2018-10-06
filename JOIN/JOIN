@@ -1,0 +1,23 @@
+SELECT Orders.OrderID, Orders.ProductID, Products.ProductName, Products.ProductPrice
+FROM   Orders
+JOIN   Products ON (Orders.ProductID = Products.ProductID)
+
+-------------------
+
+SELECT o.OrderID, o.ProductID, p.ProductName, p.Price
+FROM   Orders AS o
+JOIN   Products AS p ON (o.ProductID = p.ProductID)
+
+-------------------
+
+SELECT Orders.OrderID, Orders.ProductID, Products.ProductName, Products.ProductPrice, Products.ProductPrice * Orders.Units AS Cost 
+FROM   Orders
+JOIN   Products ON (Orders.ProductID = Products.ProductID)
+
+-------------------
+
+SELECT Orders.OrderID, Orders.ProductID, Products.ProductName, Products.ProductPrice, Products.ProductPrice * Orders.Units AS Cost 
+FROM   Orders
+JOIN   Products ON (Orders.ProductID = Products.ProductID)
+WHERE Products.ProductCategory = 1
+ORDER BY Cost DESC
