@@ -1,0 +1,7 @@
+DELETE FROM Products
+WHERE ProductPrice = 10
+
+----------------
+
+DELETE FROM Products
+WHERE ProductPrice > 9 AND ProductPrice < 20
