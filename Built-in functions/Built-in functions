@@ -1,0 +1,29 @@
+SELECT MIN(ProductPrice), ProductName
+FROM Products
+
+----------------
+
+SELECT MAX(ProductPrice), ProductName
+FROM Products
+
+----------------
+
+SELECT COUNT(ProductPrice)
+FROM Products
+
+----------------
+
+SELECT COUNT(ProductPrice)
+FROM Products
+WHERE ProductPrice < 8
+
+----------------
+
+SELECT SUM(ProductPrice)
+FROM Products
+
+----------------
+
+SELECT SUM(ProductPrice)
+FROM Products
+
