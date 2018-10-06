@@ -16,4 +16,4 @@ This repository include subjects in SQL language
 * JOIN
 * Built-in functions
 * DELETE
-*
+* UPDATE
