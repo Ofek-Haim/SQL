@@ -4,3 +4,15 @@ CREATE TABLE `table1` (
 	`Data`	TEXT,
 	PRIMARY KEY(`Id`)
 );
+
+--------------------
+
+CREATE TABLE Customers  
+(  
+    CustomerID COUNTER PRIMARY KEY,  
+    Last_Name TEXT(50) NOT NULL,  
+    First_Name TEXT(50) NOT NULL,  
+    Phone TEXT(10),  
+    Email TEXT(50),  
+    Comments MEMO  
+)  
