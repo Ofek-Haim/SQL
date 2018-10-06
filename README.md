@@ -15,5 +15,5 @@ This repository include subjects in SQL language
 * Connections between tables - PK&FK
 * JOIN
 * Built-in functions
-*
+* DELETE
 *
