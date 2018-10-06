@@ -1,0 +1,9 @@
+UPDATE Products
+SET ProductPrice = 30, ProductName = "Milk+"
+WHERE ProductName = "Milk"
+
+--------------------
+
+UPDATE Products
+SET ProductPrice = ProductPrice + (ProductPrice/100*5)  
+WHERE ProductName = "Milk+"
