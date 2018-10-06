@@ -14,6 +14,6 @@ This repository include subjects in SQL language
 * DISTINCT
 * Connections between tables - PK&FK
 * JOIN
-*
+* Built-in functions
 *
 *
