@@ -19,3 +19,4 @@ This repository include subjects in SQL language
 * UPDATE
 
 ## Advanced
+* ALTER&DROP&ADD
